@@ -4,7 +4,7 @@
 
 ### Here I have build a Text Emotion Classifier using Naive Bayes supervised machine learning algorithm.
 
-### Data source: [Emotion Detection from text](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text) :floppy_disk:
+## Click here to use this app: [Text Emotion Classifier](https://arpsgit-text-emotion-classification-main-9muey4.streamlit.app/) :innocent:
 
 ## Steps
 <br> 1. Data Cleaning - Dropped unnessesary columns :scissors: <br>
@@ -19,5 +19,4 @@
 
 ### To see the process of making the streamlit app : [App](https://github.com/Arpsgit/Text_emotion_classification/blob/main/main.py)
 
-
-## Click here to use this app: [Text Emotion Classifier](https://arpsgit-text-emotion-classification-main-9muey4.streamlit.app/) :innocent:
+### Data source: [Emotion Detection from text](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text) :floppy_disk:
