@@ -11,7 +11,7 @@
 <br> 4. Model building - used countvectorizer and tfidvectorizer to vectorize the words and GaussianNB, MultinomialNB and BernoulliNB from Scikit learn for model building. <br>
 <br> 5. Evaluation - countvectorizer with MultinomialNB performed well. <br>
 
-### To see this above mentioned steps : [Notebook](https://github.com/Arpsgit/Text_emotion_classification/blob/main/text_emotion_classification.ipynb)
+### To see those above mentioned steps : [Notebook](https://github.com/Arpsgit/Text_emotion_classification/blob/main/text_emotion_classification.ipynb)
 
 <br> 6. Website deployment - Used Streamlit for deployement.
 
