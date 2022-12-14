@@ -1,6 +1,6 @@
 # Text_emotion_classification
 
-:smile: :pensive: :rage: :heart_eyes: :expressionless:
+# :smile: :pensive: :rage: :heart_eyes: :expressionless:
 
 ### Here I have build a Text Emotion Classifier using Naive Bayes supervised machine learning algorithm.
 
