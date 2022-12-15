@@ -37,29 +37,34 @@ def text_preprocessing(text):
 vec = pickle.load(open('count_vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
-st.title("Text Emotion Classifier!!!")
+st.title("Text Emotion Classifier V1.0!!!")
 input_text = st.text_area("Enter your text: ")
 
 if st.button('Predict'):
-    # preprocess
-    transformedtext = text_preprocessing(input_text)
+    if input_text != '':
+        # preprocess
+        transformedtext = text_preprocessing(input_text)
 
-    # vectorize
-    vector_input = vec.transform([transformedtext])
+        # vectorize
+        vector_input = vec.transform([transformedtext])
 
-    # predict
-    result = model.predict(vector_input)[0]
+        # predict
+        result = model.predict(vector_input)[0]
 
-    # display
+        # display
 
-    if result == 0:
-        st.header('Angry / Hate / Bore')
-    elif result == 1:
-        st.header('Happy / Relief / Surprise')
-    elif result == 2:
-        st.header('Love / Fun / Enthusiasm')
-    elif result == 3:
-        st.header('Neutral')
+        if result == 0:
+            st.header('Angry / Hate / Bore')
+        elif result == 1:
+            st.header('Happy / Relief / Surprise')
+        elif result == 2:
+            st.header('Love / Fun / Enthusiasm')
+        elif result == 3:
+            st.header('Neutral')
+        else:
+            st.header('Sad')
     else:
-        st.header('Sad')
+        st.subheader('Please enter a text!')
 
+st.subheader("Made by Arpan Manna.")
+st.caption("Website: https://sites.google.com/view/arpanmanna")
