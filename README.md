@@ -21,3 +21,5 @@ We just have to provide a piece of text in the text area of the app and click th
 ### To see the process of making the streamlit app : [main.py](https://github.com/Arpsgit/Text_emotion_classification/blob/main/main.py)
 
 ### Data source: [kaggle Data Set: Emotion Detection from text](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text) :floppy_disk:
+
+### Visit my website: [Arpan's portfolio](https://sites.google.com/view/arpanmanna) :panda_face:
